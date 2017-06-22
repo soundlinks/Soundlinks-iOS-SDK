@@ -1,0 +1,15 @@
+# Created by https://www.gitignore.io/api/objective-c,macos
+# This gitignore is a lean version
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+xcuserdata/
+
+## Other
+*.xcuserstate
+
+## macOS
+*.DS_Store
