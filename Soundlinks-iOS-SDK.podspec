@@ -7,7 +7,7 @@ s.homepage = 'https://github.com/soundlinks/Soundlinks-iOS-SDK.git'
 s.authors = { 'Soundlinks' => 'dev@soundlinks.net' }
 s.source = { :git => 'https://github.com/soundlinks/Soundlinks-iOS-SDK.git', :tag => s.version }
 s.requires_arc = true
-s.ios.deployment_target = '8.4'
+s.ios.deployment_target = '9.0'
 s.source_files = 'SoundlinksSDK/*.h'
 s.public_header_files = 'SoundlinksSDK/*.h'
 s.vendored_libraries = 'SoundlinksSDK/libSoundlinksSDK.a'
