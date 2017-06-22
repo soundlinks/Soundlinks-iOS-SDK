@@ -7,88 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF3957DB1EFB8270006EC873 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3957DA1EFB8270006EC873 /* main.m */; };
-		BF3957DE1EFB8270006EC873 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3957DD1EFB8270006EC873 /* AppDelegate.m */; };
-		BF3957E11EFB8270006EC873 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3957E01EFB8270006EC873 /* ViewController.m */; };
-		BF3957E41EFB8270006EC873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3957E21EFB8270006EC873 /* Main.storyboard */; };
-		BF3957E61EFB8270006EC873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3957E51EFB8270006EC873 /* Assets.xcassets */; };
-		BF3957E91EFB8270006EC873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3957E71EFB8270006EC873 /* LaunchScreen.storyboard */; };
-		BF3957FE1EFB8659006EC873 /* libTestSoundsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3957FC1EFB8659006EC873 /* libTestSoundsSDK.a */; };
+		BF47CC5F1EFB89F800469EC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF47CC5E1EFB89F800469EC4 /* main.m */; };
+		BF47CC621EFB89F800469EC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF47CC611EFB89F800469EC4 /* AppDelegate.m */; };
+		BF47CC651EFB89F800469EC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF47CC641EFB89F800469EC4 /* ViewController.m */; };
+		BF47CC681EFB89F800469EC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF47CC661EFB89F800469EC4 /* Main.storyboard */; };
+		BF47CC6A1EFB89F800469EC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF47CC691EFB89F800469EC4 /* Assets.xcassets */; };
+		BF47CC6D1EFB89F800469EC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF47CC6B1EFB89F800469EC4 /* LaunchScreen.storyboard */; };
+		BF47CC771EFB8A3500469EC4 /* libTestSoundsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF47CC751EFB8A3500469EC4 /* libTestSoundsSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BF3957D61EFB8270006EC873 /* SoundlinksSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundlinksSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF3957DA1EFB8270006EC873 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BF3957DC1EFB8270006EC873 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BF3957DD1EFB8270006EC873 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BF3957DF1EFB8270006EC873 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BF3957E01EFB8270006EC873 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BF3957E31EFB8270006EC873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BF3957E51EFB8270006EC873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BF3957E81EFB8270006EC873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BF3957EA1EFB8270006EC873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF3957FC1EFB8659006EC873 /* libTestSoundsSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestSoundsSDK.a; sourceTree = "<group>"; };
-		BF3957FD1EFB8659006EC873 /* SLRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLRecognizer.h; sourceTree = "<group>"; };
+		BF47CC5A1EFB89F800469EC4 /* SoundlinksSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundlinksSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF47CC5E1EFB89F800469EC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF47CC601EFB89F800469EC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF47CC611EFB89F800469EC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF47CC631EFB89F800469EC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF47CC641EFB89F800469EC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF47CC671EFB89F800469EC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF47CC691EFB89F800469EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF47CC6C1EFB89F800469EC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF47CC6E1EFB89F800469EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF47CC751EFB8A3500469EC4 /* libTestSoundsSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestSoundsSDK.a; sourceTree = "<group>"; };
+		BF47CC761EFB8A3500469EC4 /* SLRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLRecognizer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BF3957D31EFB8270006EC873 /* Frameworks */ = {
+		BF47CC571EFB89F800469EC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF3957FE1EFB8659006EC873 /* libTestSoundsSDK.a in Frameworks */,
+				BF47CC771EFB8A3500469EC4 /* libTestSoundsSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BF3957CD1EFB8270006EC873 = {
+		BF47CC511EFB89F800469EC4 = {
 			isa = PBXGroup;
 			children = (
-				BF3957D81EFB8270006EC873 /* SoundlinksSDKExample */,
-				BF3957D71EFB8270006EC873 /* Products */,
+				BF47CC5C1EFB89F800469EC4 /* SoundlinksSDKExample */,
+				BF47CC5B1EFB89F800469EC4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BF3957D71EFB8270006EC873 /* Products */ = {
+		BF47CC5B1EFB89F800469EC4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF3957D61EFB8270006EC873 /* SoundlinksSDKExample.app */,
+				BF47CC5A1EFB89F800469EC4 /* SoundlinksSDKExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF3957D81EFB8270006EC873 /* SoundlinksSDKExample */ = {
+		BF47CC5C1EFB89F800469EC4 /* SoundlinksSDKExample */ = {
 			isa = PBXGroup;
 			children = (
-				BF3957FB1EFB8659006EC873 /* SoundlinksSDK */,
-				BF3957DC1EFB8270006EC873 /* AppDelegate.h */,
-				BF3957DD1EFB8270006EC873 /* AppDelegate.m */,
-				BF3957DF1EFB8270006EC873 /* ViewController.h */,
-				BF3957E01EFB8270006EC873 /* ViewController.m */,
-				BF3957E21EFB8270006EC873 /* Main.storyboard */,
-				BF3957E51EFB8270006EC873 /* Assets.xcassets */,
-				BF3957E71EFB8270006EC873 /* LaunchScreen.storyboard */,
-				BF3957EA1EFB8270006EC873 /* Info.plist */,
-				BF3957D91EFB8270006EC873 /* Supporting Files */,
+				BF47CC601EFB89F800469EC4 /* AppDelegate.h */,
+				BF47CC611EFB89F800469EC4 /* AppDelegate.m */,
+				BF47CC631EFB89F800469EC4 /* ViewController.h */,
+				BF47CC641EFB89F800469EC4 /* ViewController.m */,
+				BF47CC661EFB89F800469EC4 /* Main.storyboard */,
+				BF47CC691EFB89F800469EC4 /* Assets.xcassets */,
+				BF47CC6B1EFB89F800469EC4 /* LaunchScreen.storyboard */,
+				BF47CC6E1EFB89F800469EC4 /* Info.plist */,
+				BF47CC741EFB8A3500469EC4 /* SoundlinksSDK */,
+				BF47CC5D1EFB89F800469EC4 /* Supporting Files */,
 			);
 			path = SoundlinksSDKExample;
 			sourceTree = "<group>";
 		};
-		BF3957D91EFB8270006EC873 /* Supporting Files */ = {
+		BF47CC5D1EFB89F800469EC4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BF3957DA1EFB8270006EC873 /* main.m */,
+				BF47CC5E1EFB89F800469EC4 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BF3957FB1EFB8659006EC873 /* SoundlinksSDK */ = {
+		BF47CC741EFB8A3500469EC4 /* SoundlinksSDK */ = {
 			isa = PBXGroup;
 			children = (
-				BF3957FC1EFB8659006EC873 /* libTestSoundsSDK.a */,
-				BF3957FD1EFB8659006EC873 /* SLRecognizer.h */,
+				BF47CC751EFB8A3500469EC4 /* libTestSoundsSDK.a */,
+				BF47CC761EFB8A3500469EC4 /* SLRecognizer.h */,
 			);
 			path = SoundlinksSDK;
 			sourceTree = "<group>";
@@ -96,13 +96,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF3957D51EFB8270006EC873 /* SoundlinksSDKExample */ = {
+		BF47CC591EFB89F800469EC4 /* SoundlinksSDKExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF3957ED1EFB8270006EC873 /* Build configuration list for PBXNativeTarget "SoundlinksSDKExample" */;
+			buildConfigurationList = BF47CC711EFB89F800469EC4 /* Build configuration list for PBXNativeTarget "SoundlinksSDKExample" */;
 			buildPhases = (
-				BF3957D21EFB8270006EC873 /* Sources */,
-				BF3957D31EFB8270006EC873 /* Frameworks */,
-				BF3957D41EFB8270006EC873 /* Resources */,
+				BF47CC561EFB89F800469EC4 /* Sources */,
+				BF47CC571EFB89F800469EC4 /* Frameworks */,
+				BF47CC581EFB89F800469EC4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -110,26 +110,26 @@
 			);
 			name = SoundlinksSDKExample;
 			productName = SoundlinksSDKExample;
-			productReference = BF3957D61EFB8270006EC873 /* SoundlinksSDKExample.app */;
+			productReference = BF47CC5A1EFB89F800469EC4 /* SoundlinksSDKExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BF3957CE1EFB8270006EC873 /* Project object */ = {
+		BF47CC521EFB89F800469EC4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Soundlinks;
 				TargetAttributes = {
-					BF3957D51EFB8270006EC873 = {
+					BF47CC591EFB89F800469EC4 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 9Q35B5F552;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = BF3957D11EFB8270006EC873 /* Build configuration list for PBXProject "SoundlinksSDKExample" */;
+			buildConfigurationList = BF47CC551EFB89F800469EC4 /* Build configuration list for PBXProject "SoundlinksSDKExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -137,55 +137,55 @@
 				en,
 				Base,
 			);
-			mainGroup = BF3957CD1EFB8270006EC873;
-			productRefGroup = BF3957D71EFB8270006EC873 /* Products */;
+			mainGroup = BF47CC511EFB89F800469EC4;
+			productRefGroup = BF47CC5B1EFB89F800469EC4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF3957D51EFB8270006EC873 /* SoundlinksSDKExample */,
+				BF47CC591EFB89F800469EC4 /* SoundlinksSDKExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BF3957D41EFB8270006EC873 /* Resources */ = {
+		BF47CC581EFB89F800469EC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF3957E91EFB8270006EC873 /* LaunchScreen.storyboard in Resources */,
-				BF3957E61EFB8270006EC873 /* Assets.xcassets in Resources */,
-				BF3957E41EFB8270006EC873 /* Main.storyboard in Resources */,
+				BF47CC6D1EFB89F800469EC4 /* LaunchScreen.storyboard in Resources */,
+				BF47CC6A1EFB89F800469EC4 /* Assets.xcassets in Resources */,
+				BF47CC681EFB89F800469EC4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BF3957D21EFB8270006EC873 /* Sources */ = {
+		BF47CC561EFB89F800469EC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF3957E11EFB8270006EC873 /* ViewController.m in Sources */,
-				BF3957DE1EFB8270006EC873 /* AppDelegate.m in Sources */,
-				BF3957DB1EFB8270006EC873 /* main.m in Sources */,
+				BF47CC651EFB89F800469EC4 /* ViewController.m in Sources */,
+				BF47CC621EFB89F800469EC4 /* AppDelegate.m in Sources */,
+				BF47CC5F1EFB89F800469EC4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BF3957E21EFB8270006EC873 /* Main.storyboard */ = {
+		BF47CC661EFB89F800469EC4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BF3957E31EFB8270006EC873 /* Base */,
+				BF47CC671EFB89F800469EC4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BF3957E71EFB8270006EC873 /* LaunchScreen.storyboard */ = {
+		BF47CC6B1EFB89F800469EC4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BF3957E81EFB8270006EC873 /* Base */,
+				BF47CC6C1EFB89F800469EC4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -193,7 +193,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BF3957EB1EFB8270006EC873 /* Debug */ = {
+		BF47CC6F1EFB89F800469EC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +241,7 @@
 			};
 			name = Debug;
 		};
-		BF3957EC1EFB8270006EC873 /* Release */ = {
+		BF47CC701EFB89F800469EC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -283,7 +283,7 @@
 			};
 			name = Release;
 		};
-		BF3957EE1EFB8270006EC873 /* Debug */ = {
+		BF47CC721EFB89F800469EC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -292,14 +292,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/SoundlinksSDKExample/SoundlinksSDK/",
+					"$(PROJECT_DIR)/SoundlinksSDKExample/SoundlinksSDK",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.soundlinks.SoundlinksSDKExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		BF3957EF1EFB8270006EC873 /* Release */ = {
+		BF47CC731EFB89F800469EC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -308,7 +308,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/SoundlinksSDKExample/SoundlinksSDK/",
+					"$(PROJECT_DIR)/SoundlinksSDKExample/SoundlinksSDK",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.soundlinks.SoundlinksSDKExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -318,24 +318,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF3957D11EFB8270006EC873 /* Build configuration list for PBXProject "SoundlinksSDKExample" */ = {
+		BF47CC551EFB89F800469EC4 /* Build configuration list for PBXProject "SoundlinksSDKExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF3957EB1EFB8270006EC873 /* Debug */,
-				BF3957EC1EFB8270006EC873 /* Release */,
+				BF47CC6F1EFB89F800469EC4 /* Debug */,
+				BF47CC701EFB89F800469EC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF3957ED1EFB8270006EC873 /* Build configuration list for PBXNativeTarget "SoundlinksSDKExample" */ = {
+		BF47CC711EFB89F800469EC4 /* Build configuration list for PBXNativeTarget "SoundlinksSDKExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF3957EE1EFB8270006EC873 /* Debug */,
-				BF3957EF1EFB8270006EC873 /* Release */,
+				BF47CC721EFB89F800469EC4 /* Debug */,
+				BF47CC731EFB89F800469EC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BF3957CE1EFB8270006EC873 /* Project object */;
+	rootObject = BF47CC521EFB89F800469EC4 /* Project object */;
 }
