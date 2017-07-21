@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BE467241F21D0930043A48F /* libSoundlinks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE467231F21D0930043A48F /* libSoundlinks.a */; };
 		BF47CC5F1EFB89F800469EC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF47CC5E1EFB89F800469EC4 /* main.m */; };
 		BF47CC621EFB89F800469EC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF47CC611EFB89F800469EC4 /* AppDelegate.m */; };
 		BF47CC651EFB89F800469EC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF47CC641EFB89F800469EC4 /* ViewController.m */; };
 		BF47CC681EFB89F800469EC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF47CC661EFB89F800469EC4 /* Main.storyboard */; };
 		BF47CC6A1EFB89F800469EC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF47CC691EFB89F800469EC4 /* Assets.xcassets */; };
 		BF47CC6D1EFB89F800469EC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF47CC6B1EFB89F800469EC4 /* LaunchScreen.storyboard */; };
-		BF47CC771EFB8A3500469EC4 /* libTestSoundsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF47CC751EFB8A3500469EC4 /* libTestSoundsSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5BE467231F21D0930043A48F /* libSoundlinks.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSoundlinks.a; sourceTree = "<group>"; };
 		BF47CC5A1EFB89F800469EC4 /* SoundlinksSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundlinksSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF47CC5E1EFB89F800469EC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF47CC601EFB89F800469EC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		BF47CC691EFB89F800469EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF47CC6C1EFB89F800469EC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF47CC6E1EFB89F800469EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF47CC751EFB8A3500469EC4 /* libTestSoundsSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestSoundsSDK.a; sourceTree = "<group>"; };
 		BF47CC761EFB8A3500469EC4 /* SLRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLRecognizer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF47CC771EFB8A3500469EC4 /* libTestSoundsSDK.a in Frameworks */,
+				5BE467241F21D0930043A48F /* libSoundlinks.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +87,7 @@
 		BF47CC741EFB8A3500469EC4 /* SoundlinksSDK */ = {
 			isa = PBXGroup;
 			children = (
-				BF47CC751EFB8A3500469EC4 /* libTestSoundsSDK.a */,
+				5BE467231F21D0930043A48F /* libSoundlinks.a */,
 				BF47CC761EFB8A3500469EC4 /* SLRecognizer.h */,
 			);
 			path = SoundlinksSDK;
@@ -334,6 +334,7 @@
 				BF47CC731EFB89F800469EC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
