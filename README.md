@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-pod 'Soundlinks-iOS-SDK', '~> 1.0.0'
+pod 'Soundlinks-iOS-SDK', '~> 1.1.0'
 ```
 
 ## Usage
