@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = 'Soundlinks-iOS-SDK'
-s.version = '1.1.0'
+s.version = '1.2.0'
 s.license = 'MIT'
 s.summary = 'Soundlinks-iOS-SDK'
 s.homepage = 'https://github.com/soundlinks/Soundlinks-iOS-SDK.git'
