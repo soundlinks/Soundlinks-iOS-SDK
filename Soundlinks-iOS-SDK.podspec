@@ -11,5 +11,5 @@ s.requires_arc = true
 s.ios.deployment_target = '10.0'
 s.source_files = 'SoundlinksSDK/*.h'
 s.public_header_files = 'SoundlinksSDK/*.h'
-s.vendored_libraries = 'SoundlinksSDK/libSoundlinks.a'
+s.vendored_libraries = 'SoundlinksSDK/libSoundlinksSDK.a'
 end
