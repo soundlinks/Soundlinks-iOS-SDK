@@ -7,9 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "SLNeoRecognizer.h"
+#import "SLRecognizer.h"
 
-@interface ViewController() <SLNeoRecognizerDelegate>
+@interface ViewController() <SLRecognizerDelegate>
 
 @end
 
@@ -18,17 +18,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [[SLNeoRecognizer sharedInstance] initWithAppId:@"appId" appSecret:@"appSecret"];
-    [SLNeoRecognizer sharedInstance].delegate = self;
-    [[SLNeoRecognizer sharedInstance] enable];
+    [[SLRecognizer sharedInstance] initWithAppId:@"appId" appSecret:@"appSecret"];
+    [SLRecognizer sharedInstance].delegate = self;
+    [[SLRecognizer sharedInstance] enable];
 }
 
-#pragma mark SLNeoRecognizerDelegate
-- (void)recognizer:(SLNeoRecognizer *)recognizer code:(NSString *)code
+#pragma mark SLRecognizerDelegate
+- (void)recognizer:(SLRecognizer *)recognizer code:(NSString *)code
 {
     NSLog(@"code = %@", code);
     
-    NSString *token = [[SLNeoRecognizer sharedInstance] getTokenWithCode:code];
+    NSString *token = [[SLRecognizer sharedInstance] getTokenWithCode:code];
     NSLog(@"token = %@", token); // 有效时间5分钟。
 }
 

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B37589E21FEF384003B14C8 /* libSoundlinksSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B37589C21FEF384003B14C8 /* libSoundlinksSDK.a */; };
+		5B87694821FEFC3F00A1625A /* libSoundlinksSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B87694721FEFC3F00A1625A /* libSoundlinksSDK.a */; };
 		BF47CC5F1EFB89F800469EC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF47CC5E1EFB89F800469EC4 /* main.m */; };
 		BF47CC621EFB89F800469EC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF47CC611EFB89F800469EC4 /* AppDelegate.m */; };
 		BF47CC651EFB89F800469EC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF47CC641EFB89F800469EC4 /* ViewController.m */; };
@@ -17,8 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B37589C21FEF384003B14C8 /* libSoundlinksSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSoundlinksSDK.a; sourceTree = "<group>"; };
-		5B37589D21FEF384003B14C8 /* SLNeoRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLNeoRecognizer.h; sourceTree = "<group>"; };
+		5B87694621FEFC3F00A1625A /* SLRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLRecognizer.h; sourceTree = "<group>"; };
+		5B87694721FEFC3F00A1625A /* libSoundlinksSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSoundlinksSDK.a; sourceTree = "<group>"; };
 		BF47CC5A1EFB89F800469EC4 /* SoundlinksSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundlinksSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF47CC5E1EFB89F800469EC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF47CC601EFB89F800469EC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B37589E21FEF384003B14C8 /* libSoundlinksSDK.a in Frameworks */,
+				5B87694821FEFC3F00A1625A /* libSoundlinksSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +66,8 @@
 				BF47CC611EFB89F800469EC4 /* AppDelegate.m */,
 				BF47CC631EFB89F800469EC4 /* ViewController.h */,
 				BF47CC641EFB89F800469EC4 /* ViewController.m */,
+				5B87694721FEFC3F00A1625A /* libSoundlinksSDK.a */,
+				5B87694621FEFC3F00A1625A /* SLRecognizer.h */,
 				BF47CC661EFB89F800469EC4 /* Main.storyboard */,
 				BF47CC691EFB89F800469EC4 /* Assets.xcassets */,
 				BF47CC6B1EFB89F800469EC4 /* LaunchScreen.storyboard */,
@@ -87,8 +89,6 @@
 		BF47CC741EFB8A3500469EC4 /* SoundlinksSDK */ = {
 			isa = PBXGroup;
 			children = (
-				5B37589C21FEF384003B14C8 /* libSoundlinksSDK.a */,
-				5B37589D21FEF384003B14C8 /* SLNeoRecognizer.h */,
 			);
 			path = SoundlinksSDK;
 			sourceTree = "<group>";
@@ -293,6 +293,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SoundlinksSDKExample/SoundlinksSDK",
+					"$(PROJECT_DIR)/SoundlinksSDKExample",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.soundlinks.SoundlinksSDKExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -309,6 +310,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SoundlinksSDKExample/SoundlinksSDK",
+					"$(PROJECT_DIR)/SoundlinksSDKExample",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.soundlinks.SoundlinksSDKExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
