@@ -1,13 +1,14 @@
+
 Pod::Spec.new do |s|
 s.name = 'Soundlinks-iOS-SDK'
-s.version = '1.2.0'
+s.version = '2.0.0'
 s.license = 'MIT'
-s.summary = 'Soundlinks-iOS-SDK'
+s.summary = 'Soundlinks iOS SDK'
 s.homepage = 'https://github.com/soundlinks/Soundlinks-iOS-SDK.git'
 s.authors = { 'Soundlinks' => 'dev@soundlinks.net' }
 s.source = { :git => 'https://github.com/soundlinks/Soundlinks-iOS-SDK.git', :tag => s.version }
 s.requires_arc = true
-s.ios.deployment_target = '9.0'
+s.ios.deployment_target = '10.0'
 s.source_files = 'SoundlinksSDK/*.h'
 s.public_header_files = 'SoundlinksSDK/*.h'
 s.vendored_libraries = 'SoundlinksSDK/libSoundlinks.a'
