@@ -1,17 +1,15 @@
 //
 //  ViewController.m
-//  SoundlinksSDKExample
+//  SDK
 //
-//  Created by wyudong on 2017/6/22.
-//  Copyright © 2017年 Soundlinks. All rights reserved.
+//  Created by 朱帅 on 2017/4/17.
+//  Copyright © 2017年 朱帅. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "SLRecognizer.h"
+#import "SLNeoRecognizer.h"
 
-@interface ViewController () <SLRecognizerDelegate>
-
-@property (nonatomic, strong) SLRecognizer *recognizer;
+@interface ViewController() <SLNeoRecognizerDelegate>
 
 @end
 
@@ -20,14 +18,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    self.recognizer = [SLRecognizer recognizerWithDelegate:self];
-    [self.recognizer enable];
+    [[SLNeoRecognizer sharedInstance] initWithAppId:@"appId" appKey:@"appSecret"];
+    [SLNeoRecognizer sharedInstance].delegate = self;
+    [[SLNeoRecognizer sharedInstance] enable];
 }
 
-- (void)recognizer:(SLRecognizer *)recognizer content:(NSDictionary *)content
+#pragma mark SLNeoRecognizerDelegate
+- (void)recognizer:(SLNeoRecognizer *)recognizer code:(NSString *)code
 {
-    NSLog(@"🕹Received Soundlinks: %@", content);
+    NSLog(@"code = %@", code);
+    
+    NSString *token = [[SLNeoRecognizer sharedInstance] getTokenWithCode:code];
+    NSLog(@"token = %@", token); // 有效时间5分钟。
 }
 
 @end
