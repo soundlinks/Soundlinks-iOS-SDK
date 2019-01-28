@@ -18,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [[SLNeoRecognizer sharedInstance] initWithAppId:@"appId" appKey:@"appSecret"];
+    [[SLNeoRecognizer sharedInstance] initWithAppId:@"appId" appSecret:@"appSecret"];
     [SLNeoRecognizer sharedInstance].delegate = self;
     [[SLNeoRecognizer sharedInstance] enable];
 }

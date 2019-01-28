@@ -19,7 +19,7 @@
 
 @interface SLNeoRecognizer : NSObject
 
-- (void)initWithAppId:(NSString * )appId appKey:(NSString *)appKey;
+- (void)initWithAppId:(NSString * )appId appSecret:(NSString *)appSecret;
 + (instancetype)sharedInstance;
 
 @property (nonatomic, weak) id<SLNeoRecognizerDelegate> delegate;
