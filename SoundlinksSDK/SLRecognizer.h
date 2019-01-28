@@ -1,5 +1,5 @@
 //
-//  SLNeoRecognizer.h
+//  SLRecognizer.h
 //  Spy
 //
 //  Created by wyudong on 2018/1/18.
@@ -8,21 +8,21 @@
 
 #import <Foundation/Foundation.h>
 
-@class SLNeoRecognizer;
+@class SLRecognizer;
 
-@protocol SLNeoRecognizerDelegate <NSObject>
+@protocol SLRecognizerDelegate <NSObject>
 
 @required
-- (void)recognizer:(SLNeoRecognizer *)recognizer code:(NSString *)code;
+- (void)recognizer:(SLRecognizer *)recognizer code:(NSString *)code;
 
 @end
 
-@interface SLNeoRecognizer : NSObject
+@interface SLRecognizer : NSObject
 
 - (void)initWithAppId:(NSString * )appId appSecret:(NSString *)appSecret;
 + (instancetype)sharedInstance;
 
-@property (nonatomic, weak) id<SLNeoRecognizerDelegate> delegate;
+@property (nonatomic, weak) id<SLRecognizerDelegate> delegate;
 
 // Recognize
 - (void)enable;
