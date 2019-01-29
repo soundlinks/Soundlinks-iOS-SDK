@@ -1,48 +1,19 @@
-# Soundlinks-iOS-SDK
+<h1 align="center">
+    <br>
+    Soundlinks iOS SDK
+    <br>
+</h1>
 
-## Installation
+<h4 align="center">Please read the documentation at <a href="https://developer.soundlinks.net" target="_blank">developer.soundlinks.net</a></h4>
 
-```
-pod 'Soundlinks-iOS-SDK', '~> 1.2.0'
-```
-
-## Usage
-
-In a ViewController for recognizing Soundlinks, start like this:
-
-```objc
-#import "SLRecognizer.h"
-
-@interface ViewController () <SLRecognizerDelegate>
-
-@property (nonatomic, strong) SLRecognizer *recognizer;
-
-@end
-
-@implementation ViewController
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-
-    self.recognizer = [SLRecognizer recognizerWithDelegate:self];
-    [self.recognizer enable];
-}
-
-- (void)recognizer:(SLRecognizer *)recognizer content:(NSDictionary *)content
-{
-    NSLog(@"Received Soundlinks: %@", content);
-}
-
-@end
-```
-
-To stop the recognizer:
-
-```objc
-[self.recognizer disable];
-```
-
-## Feedback
-
-[Create a issue](https://github.com/soundlinks/Soundlinks-iOS-SDK/issues/new) and we are here to help.
+<p align="center">
+    <a href="https://soundlinks.net">
+        <img src="https://img.shields.io/badge/platform-iOS-ff69bb.svg">
+    </a>
+    <a href="https://cocoapods.org/pods/Soundlinks-iOS-SDK">
+        <img src="https://img.shields.io/cocoapods/v/Soundlinks-iOS-SDK.svg">
+    </a>
+    <a href="https://github.com/soundlinks/Soundlinks-iOS-SDK/blob/master/LICENSE">
+        <img src="https://img.shields.io/github/license/soundlinks/Soundlinks-iOS-SDK.svg">
+    </a>
+</p>
